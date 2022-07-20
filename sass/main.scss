@@ -13,8 +13,20 @@ body {
 	background-color: #444;
 }
 
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.underline {
+	margin: 0 auto 40px;
+	width: 60px;
+	height: 4px;
+	background-color: $main-color;
+}
+
 .blue-text {
-	color: $blue-color;
+	color: $main-color;
 }
 
 .shadow-bg {
@@ -43,11 +55,11 @@ nav {
 
 	.nav-link:hover,
 	.navbar-brand:hover {
-		color: $blue-color;
+		color: $main-color;
 	}
 
 	.active {
-		color: $blue-color;
+		color: $main-color;
 	}
 }
 
@@ -107,7 +119,19 @@ header {
 }
 
 .aboutus {
-	height: 600px;
+	i {
+		margin-top: 20px;
+		font-size: 30px;
+	}
+
+	.aboutus-card-title {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+
+	.aboutus-card-text {
+		font-size: 14px;
+	}
 }
 
 @media (min-width: 375px) {
