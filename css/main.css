@@ -138,6 +138,22 @@ header .fa-chevron-down {
 .aboutus .aboutus-hover:hover {
   color: #039dff;
 }
+.aboutus .aboutus-hero-img {
+  position: relative;
+  background-image: url("../img/about-hero-small.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #ddd;
+  z-index: 0;
+}
+.aboutus .aboutus-hero-img .aboutus-hero-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  z-index: -5;
+}
 
 @media (min-width: 375px) {
   header h1 {
@@ -163,5 +179,8 @@ header .fa-chevron-down {
 @media (min-width: 1200px) {
   header .hero-img {
     background-image: url("../img/header-big.jpg");
+  }
+  .aboutus .aboutus-hero-img {
+    background-image: url("../img/about-hero-big.jpg");
   }
 }/*# sourceMappingURL=main.css.map */

@@ -144,6 +144,24 @@ header {
 	.aboutus-hover:hover {
 		color: $main-color;
 	}
+
+	.aboutus-hero-img {
+		position: relative;
+		background-image: url('../img/about-hero-small.jpg');
+		background-position: center;
+		background-size: cover;
+		color: $light-gray;
+		z-index: 0;
+
+		.aboutus-hero-shadow {
+			position: absolute;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			color: rgb(0, 0, 0, 0.7);
+			z-index: -5;
+		}
+	}
 }
 
 @media (min-width: 375px) {
@@ -180,6 +198,11 @@ header {
 	header {
 		.hero-img {
 			background-image: url('../img/header-big.jpg');
+		}
+	}
+	.aboutus {
+		.aboutus-hero-img {
+			background-image: url('../img/about-hero-big.jpg');
 		}
 	}
 }
