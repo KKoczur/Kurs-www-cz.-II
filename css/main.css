@@ -13,7 +13,7 @@ html {
 body {
   position: relative;
   font-family: "Montserrat" sans-serif;
-  background-color: #444;
+  background-color: #ebecf2;
 }
 
 h2 {
@@ -180,6 +180,54 @@ header .fa-chevron-down {
   padding-bottom: 20px;
 }
 
+.prices .separator {
+  margin: 0 auto 20px;
+  width: 200px;
+  height: 2px;
+  background-color: #ebecf2;
+}
+.prices .price-box {
+  margin: 20px 10px;
+  padding: 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.prices .price-box h3 {
+  text-transform: uppercase;
+  color: #039dff;
+}
+.prices .price-box span {
+  font-weight: bold;
+}
+.prices .price-box i {
+  padding: 0px 5px;
+  font-size: 24px;
+}
+.prices .price-box button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.prices .price-box .price-tag {
+  font-size: 30px;
+  font-weight: bold;
+}
+.prices .price-box:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.prices .price-info {
+  margin-top: 30px;
+  text-align: center;
+}
+.prices .price-info a {
+  text-decoration: none;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 36px;
@@ -202,6 +250,9 @@ header .fa-chevron-down {
   }
   .aboutus-hero {
     background-image: url("../img/about-hero-big.jpg");
+  }
+  .prices .price-info {
+    font-size: 18px;
   }
 }
 @media (min-width: 1200px) {
