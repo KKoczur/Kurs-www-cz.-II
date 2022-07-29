@@ -228,6 +228,12 @@ header .fa-chevron-down {
   text-decoration: none;
 }
 
+.team .card .card-footer i {
+  padding: 10px;
+  font-size: 16px;
+  color: #039dff;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 36px;

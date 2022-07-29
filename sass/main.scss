@@ -249,6 +249,18 @@ header {
 	}
 }
 
+.team {
+	.card {
+		.card-footer {
+			i {
+				padding: 10px;
+				font-size: 16px;
+				color: $main-color;
+			}
+		}
+	}
+}
+
 @media (min-width: 375px) {
 	header {
 		h1 {
