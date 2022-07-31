@@ -236,6 +236,9 @@ header .fa-chevron-down {
   background-attachment: fixed;
   z-index: 0;
 }
+.team h2 {
+  color: #ddd;
+}
 .team .team-shadow {
   position: absolute;
   top: 0;
@@ -243,9 +246,6 @@ header .fa-chevron-down {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: -5;
-}
-.team h2 {
-  color: #ddd;
 }
 .team .card {
   -webkit-transition: -webkit-transform 0.3s;
