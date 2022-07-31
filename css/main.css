@@ -258,13 +258,8 @@ header .fa-chevron-down {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.team .card .card-title {
-  text-transform: uppercase;
-}
-.team .card .card-footer i {
+.team .card i {
   padding: 10px;
-  font-size: 16px;
-  color: #039dff;
 }
 .team .card:hover {
   -webkit-transform: scale(0.96);
@@ -274,6 +269,9 @@ header .fa-chevron-down {
   margin-bottom: 20px;
   text-align: center;
   text-transform: uppercase;
+}
+.team .card-body {
+  height: 160px;
 }
 
 @media (min-width: 375px) {

@@ -278,16 +278,8 @@ header {
 			object-fit: cover;
 		}
 
-		.card-title {
-			text-transform: uppercase;
-		}
-
-		.card-footer {
-			i {
-				padding: 10px;
-				font-size: 16px;
-				color: $main-color;
-			}
+		i {
+			padding: 10px;
 		}
 	}
 
@@ -299,6 +291,10 @@ header {
 		margin-bottom: 20px;
 		text-align: center;
 		text-transform: uppercase;
+	}
+
+	.card-body {
+		height: 160px;
 	}
 }
 
