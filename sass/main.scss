@@ -298,6 +298,24 @@ header {
 	}
 }
 
+.achievements {
+	i {
+		margin-top: 20px;
+		font-size: 48px;
+		color: $main-color;
+	}
+
+	.achievement-card-title {
+		font-size: 28px;
+	}
+
+	.achievement-card-text {
+		margin-top: 20px;
+		font-size: 16px;
+		text-transform: uppercase;
+	}
+}
+
 @media (min-width: 375px) {
 	header {
 		h1 {
