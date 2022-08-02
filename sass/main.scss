@@ -300,13 +300,19 @@ header {
 
 .achievements {
 	i {
+		padding: 10px;
 		margin-top: 20px;
 		font-size: 48px;
-		color: $main-color;
+		color: $white-color;
+		text-shadow: 0 0 5px #000;
+	}
+
+	.achievements-list{
+		padding: 20px 0;
 	}
 
 	.achievement-card-title {
-		font-size: 28px;
+		font-size: 22px;
 	}
 
 	.achievement-card-text {
